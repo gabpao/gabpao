@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Untitled Document</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<link href="css/estilo.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <ul id="clothingnav1" class="nav nav-tabs" role="tablist">
+          <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true"><img src="imagenes/logo.png" width="47" height="41" alt=""/>GabpaoTravels</a></li>
+          <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Actividades populares</a></li>
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+<div class="dropdown-menu"> <a class="dropdown-item" href="#tabDropDownOne1" role="tab" id="dropdownshoestab1" data-toggle="tab" aria-controls="dropdownShoes">Dropdown Link 1</a> <a class="dropdown-item" href="#tabDropDownTwo1" role="tab" id="dropdownbootstab1" data-toggle="tab" aria-controls="dropdownBoots">Dropdown Link 2</a> </div>
+          </li>
+        </ul>
+        <!-- Content Panel -->
+        <div id="clothingnavcontent1" class="tab-content">
+          <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+            <p>Content in <b>Tab Panel 1</b></p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+            <p>Reserva tours, actividades y atracciones en cualquier lugar</p>
+          </div> 
+		  <div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab2">
+            <p>Content 3</p>
+          </div>
+		   <div role="tabpanel" class="tab-pane fade" id="paneTwo3" aria-labelledby="hatstab3">
+            <p>Content 4</p>
+          </div>
+		   <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+            <p>Content 2</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="tabDropDownOne1" aria-labelledby="dropdownshoestab1">
+            <p>Dropdown content#1</p>
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="tabDropDownTwo1" aria-labelledby="dropdownbootstab1">
+            <p>Dropdown content#2</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="container-fluid">
+  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="background-color: grey">
+  	    <ol class="carousel-indicators">
+  	      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
+  	      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
+  	      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
+        </ol>
+  	    <div class="carousel-inner" role="listbox">
+  	      <div class="carousel-item active"> <img class="d-block mx-auto" src="imagenes/slidees1.png" alt="First slide">
+  	        <div class="carousel-caption">
+  	          <h5>Reserva tours, actividades y atracciones en cualquier lugar</h5>
+  	          <p>First slide Caption</p>
+            </div>
+          </div>
+  	      <div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/slides3.png" alt="Second slide">
+  	        <div class="carousel-caption">
+  	          <h5>Reserva tours, actividades y atracciones en cualquier lugar</h5>
+  	          <p>Second slide Caption</p>
+            </div>
+          </div>
+  	      <div class="carousel-item"> <img class="d-block mx-auto" src="imagenes/slides2.png" alt="Third slide">
+  	        <div class="carousel-caption">
+  	          <h5>Reserva tours, actividades y atracciones en cualquier lugar</h5>
+  	          <p>Third slide Caption</p>
+            </div>
+          </div>
+        </div>
+  	    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+  </div>   
+	  
+<div class="container">
+  <div class="container-fluid" id="contain">
+    <div class="container-fluid">
+      <div class="container"></div>
+	  <div class="container-fluid"></div>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+  	    <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card1.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">Paris</h5>
+  	          <p class="card-text">Esta exquisita capital sin duda es sinónimo de belleza. Déjate llevar por el encanto de la romántica ciudad del amor...</p>
+            <a href="#" class="btn btn-primary">Leer más</a></div>
+          </div>
+  	    </div>
+  	    <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card2.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">Islas Canarias </h5>
+  	          <p class="card-text">Disfruta de Islas canarias en el famoso Tenerife: ecocrucero para ver delfines y ballenas con comida y bebida incluida para dos o otres personas...</p>
+  	          <a href="#" class="btn btn-primary">Leer más</a></div>
+          </div>
+  	    </div>
+  	    <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card3.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">Venecia</h5>
+  	          <p class="card-text">Deja atrás las multitudes de Venecia durante una visita a Murano, Burano y Torcello con un paseo guiado en barco de medio día…</p>
+  	          <a href="#" class="btn btn-primary">Leer más</a></div>
+          </div>
+  	    </div>
+  	    <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card4.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">Rio de Janeiro </h5>
+  	          <p class="card-text">Descubra la hermosa costa de Río de Janeiro en un tour guiado en kayak donde te ofrecemos las más cómodas condiciones…</p>
+  	          <a href="#" class="btn btn-primary">Leer más</a></div>
+          </div>
+  	    </div> <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card5.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">DisneyLand</h5>
+  	          <p class="card-text">Disfruta de un día mágico en Disneyland, París con el servicio FASTPASS® estándar para seleccionar atracciones...</p>
+  	          <a href="#" class="btn btn-primary">Leer más</a></div>
+          </div>
+  	    </div> <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card6.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">Acapulco</h5>
+  	          <p class="card-text">Disfruta de la preciosa bahía de Acapulco mientras haces esnórquel en las encantadoras aguas, incluye servicio de recogida...</p>
+  	          <a href="#" class="btn btn-primary">Leer más</a></div>
+          </div>
+  	    </div> <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card7.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">Suiza</h5>
+  	          <p class="card-text">Disfrute de un viaje en barco de 1 hora desde Lucerna a Alpnachstad, donde cambiará al tren de cremallera Pilatus, el&nbsp; más empinado del mundo.</p>
+  	          <a href="#" class="btn btn-primary">Leer más</a></div>
+          </div>
+  	    </div>
+	  <div class="col-lg-3 col-md-6">
+  	      <div class="card col-lg-12 col-md-12"> <img class="card-img-top" src="imagenes/card8.png" alt="Card image cap">
+  	        <div class="card-body">
+  	          <h5 class="card-title">Gran Muralla China</h5>
+  	          <p class="card-text">Visita el sector Mutianyu de la Gran Muralla con transporte desde el centro de Pekín. Opción de participar en una excursión guiada por el paisaje más bello del recorrido...</p>
+  	          <a href="#" class="btn btn-primary">Leer más</a></div>
+        </div>
+      </div>
+		  
+      </div>
+  	</div> 
+	  
+  <div class="container-fluid">
+    <div id="accordion1" role="tablist">
+      <div class="card">
+        <div class="card-header" role="tab" id="headingOne1">
+          <h5 class="mb-0"> <a data-toggle="collapse" href="#collapseOne1" role="button" aria-expanded="true" aria-controls="collapseOne1"> Medidas contra el covid 19 </a></h5>
+        </div>
+        <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1" data-parent="#accordion1">
+          <div class="card-body">
+            <p> • Se proporcionará todo el equipo de protección requerido </p>
+            <p>• Todas las superficies con las que los visitantes estén en contacto se limpiarán frecuentemente</p>
+            <p> • Se limitará el número de visitantes y pasajeros para evitar multitudes </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingTwo1">
+          <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#collapseTwo1" role="button" aria-expanded="false" aria-controls="collapseTwo1">Beneficios</a></h5>
+        </div>
+        <div id="collapseTwo1" class="collapse" role="tabpanel" aria-labelledby="headingTwo1" data-parent="#accordion1">
+          <div class="card-body">
+            <p> • Cancelación gratuita: No te estreses si cambian tus planes. Cancela hasta 24 horas antes del comienzo de la actividad y recibirás un reembolso completo. </p>
+            <p>• Acceso rápido: Evita las largas esperas en las taquillas de las atracciones más concurridas y dedica todo tu tiempo a la parte divertida de tu visita.</p>
+            <p> • Asistencia incondicional: Estamos aquí para lo que necesites las 24 horas del día, los 7 días de la semana. Ponte en contacto con nuestro equipo por teléfono, WhatsApp o correo electrónico. .</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" role="tab" id="headingThree1">
+          <h5 class="mb-0"><a class="collapsed" data-toggle="collapse" href="#collapseThree1" role="button" aria-expanded="false" aria-controls="collapseThree1">Sobre nosotros</a></h5>
+        </div>
+        <div id="collapseThree1" class="collapse" role="tabpanel" aria-labelledby="headingThree1" data-parent="#accordion1">
+          <div class="card-body"> Queremos hacer que todos tus viajes sean extraordinarios. Somos tu guía personal: con nosotros encontrarás cosas que hacer sea cual sea tu destino, desde visitas imprescindibles hasta experiencias exclusivas. Vivir momentos inolvidables nunca ha sido tan fácil como con GabPaoTravels. Millones de viajeros ya han confiado en GabPaoTravels para cumplir sus sueños de viaje, y este es solo el principio. Estamos cambiando la forma en la que las personas conectan con sus destinos para que puedan vivir unas vacaciones de ensueño. Crea viajes a tu medida.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- body code goes here -->
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.3.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/popper.min.js"></script> 
+  <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
